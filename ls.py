@@ -7,7 +7,7 @@ if("--help" in sys.argv ):
 
 elif( "--version" in sys.argv ):
 	import version
-	print "%s%s" % (sys.argv[0],version.package)
+	print "%s %s" % (sys.argv[0],version.package)
 	print version.copyright
 else:
 	paths = []
