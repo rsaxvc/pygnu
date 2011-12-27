@@ -3,8 +3,7 @@ import os,sys
 
 paths = []
 if( len( sys.argv ) > 1 ):
-	lst = sys.argv[ -(len( sys.argv ) - 1 ) : ]
-	paths.extend( lst )
+	paths.extend( sys.argv[ 1: ] )
 else:
 	paths.append( os.getcwd() )
 
