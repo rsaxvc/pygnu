@@ -10,8 +10,7 @@ else:
 for path in paths:
 	if( len( paths ) > 1 ):
 		print "%s:" % path
-	dirList=os.listdir(path)
-	for fname in dirList:
+	for fname in os.listdir(path):
 		if fname[0] != '.':
 			print fname
 	if( len( paths ) > 1 ):
