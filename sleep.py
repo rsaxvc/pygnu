@@ -11,4 +11,4 @@ elif( "--version" in sys.argv ):
 	print version.copyright
 else:
 	for arg in sys.argv[ 1: ]:
-		time.sleep( float(arg) );
+		time.sleep( float(arg) )
