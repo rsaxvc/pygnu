@@ -17,4 +17,4 @@ else:
 	line_number = 0
 	for line in iter(fd.readline, ''):
 		line_number += 1
-		print str( line_number ).rjust(10, ' '), line
+		print str( line_number ).rjust(10, ' '), line.rstrip()
